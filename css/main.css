@@ -1,0 +1,41 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+.navigation {
+
+}
+li {
+	font-family: Arial;
+	list-style: none;
+	display: inline-block;
+}
+.centro{ 
+	max-width: 700px;
+}
+hr {
+	background-color: black;
+	width: 700px;
+}
+.chica{
+	width: 70px;
+}
+.vertical {
+	border-right: 1px solid black;
+}
+.gruesa{
+	background-color: black;
+	height: 5px; 
+	width: 20%;
+	margin-left: 0%
+}
+p {
+	font-family: sans-serif;
+	text-align: center;
+}
+.inline{
+	display: inline;
+	margin: 10px;
+	position: relative;
+	top: 10px;
+}
