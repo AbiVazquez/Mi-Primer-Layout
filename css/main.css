@@ -6,9 +6,11 @@
 
 }
 li {
-	font-family: Arial;
+	font-family: Times;
+	font-size: 20px;
 	list-style: none;
 	display: inline-block;
+	padding: 0px 30px;
 }
 .centro{ 
 	max-width: 700px;
@@ -30,12 +32,78 @@ hr {
 	margin-left: 0%
 }
 p {
-	font-family: sans-serif;
+	font-family: Times;
+	font-size: 25px;
 	text-align: center;
 }
-.inline{
-	display: inline;
-	margin: 10px;
+/*imagenes con letra*/
+.caption {
+	padding: 0;
+	width: 100%;
 	position: relative;
-	top: 10px;
+	display: inline;
+	margin-left: 20px;
+}
+.caption img {
+	width: 30%;
+	height: auto;
+	padding: 0px;
+	border: 20px;
+}
+.caption::before {
+	content: attr(title);
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	padding: 5px;
+	right: 0;
+	bottom: 0;
+}
+
+/*coders*/
+.circulo {
+	border-radius: 100px;
+	position: relative;
+	left: 250px;
+	top: 15px;
+}
+.caja {
+	border: 1px solid black;
+	width: 700px;
+	margin:  0 auto;
+	padding: 20px;
+}
+h1{
+	text-align: center;
+}
+.letra{
+	font-family: Times;
+	font-size: 20px;
+	text-align: center;	
+	padding: 20px;
+}
+/*Cajas*/
+.gris{
+	height: 20px;
+	background-color: #848484;
+	margin-top: 30px;
+	padding: 15px;
+	font-family: Times;
+	color: white;
+}
+.largo {
+	width: 65%;
+}
+.mediano {
+	width: 40%;
+}
+.corto{
+	width: 15%;
+}
+/*imagenes*/
+.cuadro {
+	max-width: 200px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
 }
